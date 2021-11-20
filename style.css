@@ -216,6 +216,7 @@ body {
     font-weight: 400;
     color: #2D2D2D;
     margin-bottom: 0.5rem;
+    line-height: 1.3;
 }
 
 .content .btn {
@@ -285,7 +286,6 @@ body.active {
     background: -webkit-linear-gradient(270deg, rgba(214, 214, 214, 0.233), rgba(13, 74, 136, 0) );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .active .click,
@@ -308,4 +308,16 @@ body.active {
 
 .active footer .icons .fab {
     color: white;
+}
+
+@media screen and (max-width: 634px) {
+    .post {
+        flex-direction: column;
+    }
+    .post img {
+        width: 350px;
+        height: auto;
+        display: block;
+        margin: 0.5rem auto 0 auto;
+    }
 }
