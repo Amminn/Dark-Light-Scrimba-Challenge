@@ -185,8 +185,9 @@ body {
 
 .post img {
     border-radius: 3px;
-    width: 179px;
+    width: 100%;
     height: 225px;
+    object-fit: cover;
 }
 
 .content {
@@ -315,9 +316,6 @@ body.active {
         flex-direction: column;
     }
     .post img {
-        width: 350px;
-        height: auto;
-        display: block;
-        margin: 0.5rem auto 0 auto;
+        margin: 0.5rem auto 0 auto;   
     }
 }
